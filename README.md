@@ -8,7 +8,7 @@
 
 ## Principaux contributeurs:
 
-- [@MaxenceLebrunDEV](https://www.github.com/octokatherine)
+- [@MaxenceLebrunDEV](https://www.github.com/MaxenceLebrunDEV)
 
 
 ## Déploiement
