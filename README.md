@@ -26,7 +26,7 @@ Le projet est utilisé au sein des établissements:
 
 - Victor Duruy – Mont de Marsan(40) (Sur une courte fourchette de testeurs)
 
-## Différents thèmes:
+## Différents thèmes (v2):
 
 | Thèmes             | Rendu                                                                |
 | ----------------- | ------------------------------------------------------------------ |
