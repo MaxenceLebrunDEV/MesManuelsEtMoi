@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <!-- 2ème Easter EGG -->
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>MesManuels&Moi</title>
+
+    <!-- Encodage -->
+    <meta charset='utf-8'>
+
+    <!-- Compatibility -->
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- ASSETS -->
     <link rel="icon" type="image/png" href="./assets/img/logo.png" />
     <link rel="stylesheet" href="./assets/css/main.css">
+
+    <!-- PWA -->
+    <link rel="manifest" href="assets/pwa/manifest.json">
     <link rel="apple-touch-icon" href="./assets/img/1024x1024.png">
-<link rel="apple-touch-icon" sizes="152x152" href="./assets/img/1024x1024.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./assets/img/1024x1024.png">
-<link rel="apple-touch-icon" sizes="167x167" href="./assets/img/1024x1024.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/1024x1024.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/1024x1024.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="./assets/img/1024x1024.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="MesManuels&Moi">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>  
-    <meta name=
-    "apple-mobile-web-app-status-bar"
-          content="#aa7700">
-    <meta name="theme-color"
-          content="black">
-   
-    <!-- Manifest File link -->
-    <link rel="manifest"
-          href="manifest.json">
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+
+    <!-- JQUERY -->
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- SEO -->
+    <meta name="description" content="MesManuels&Moi est une application qui vous permet de consulter vos manuels scolaires en ligne.">
+    <meta name="keywords" content="MesManuels&Moi, MesManuel, Lycée connecté, Lycée victor duruy">
+    <meta name="author" content="Maxence Lebrun">
 </head>
 <body>
-  <div class="navbar" style="left: 0px; padding-bottom: 2px;">
+  <div class="navbar">
     <a href="https://lyceeconnecte.fr" target="_blank">
     <img src="./assets/img/na.png" style="width: 200px;" alt="" srcset=""></a>
     <br>
   </div>
   <div class="main">
     <center>
-        <h5>Ceci est un des 3 easters-eggs🐰 Indice: code </h5> <br>
+        <br>
         <h2>Mes Manuels & Moi:<br></h2>
         <br>
         <h3 class="info" id="uainfo"> </h3>
-        <h3><a target="_blank"  id="ua"> Accès</a>
+        <h3>
+            <a target="_blank"  id="ua"> Accès</a>
           <br>
-          <div id="tuto">
-
-          </div>
+          <div id="tuto"> </div>
         </h3>
         <br>
-
-
-        <a href="mentionslegales.pdf">Mentions Légales & Politique de confidentialité</a>
-
+        <a href="assets/mentionslegales.pdf">Mentions Légales & Politique de confidentialité</a>
     </center>
   </div>
   <script>
@@ -66,22 +68,8 @@
     document.getElementById("ua").innerHTML = "Accès aux manuels";
     
     document.getElementById("uainfo").innerHTML = "Malheurement vu que l'application pour PC n'existe pas encore, vous allez être redirigé vers une page web vous permettant d'utiliser tout de même l'application.";
-       $("a").attr("href", "https://mesmanuelsetmoi.tech/pwa.html");
+       $("a").attr("href", "pwa.html");
   }
-    /**
-    if (/android/i.test(ua)) {
-    document.getElementById("app").innerHTML = "Installation sur Android";
-    }
-    else if (/iPad|iPhone|iPod/.test(ua)){
-      
-    document.getElementById("app").innerHTML = "Installation sur iOS";
-      document.getElementById("app").setAttribute ("href", "ios.mp4");
-    }else{
-      document.getElementById("app").innerHTML = "Accès PC";
-      document.getElementById("app").setAttribute ("href", "pwa.html");}
-  
-  
-**/
   </script>
 </body>
 </html>
